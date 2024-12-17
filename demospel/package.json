@@ -1,0 +1,26 @@
+{
+  "name": "snake",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "canvas-confetti": "^1.2.0",
+    "gsap": "^3.3.4",
+    "howler": "^2.2.1",
+    "pullstate": "^1.16.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sat": "^0.8.0",
+    "three": "^0.117.1",
+    "wobble": "^1.5.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  }
+}

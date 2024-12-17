@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="description" content="Ett spel man kan spela i bussklubben!" />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <title>BussSnake</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #000000;
+      }
+      #game {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #ui {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .spinner {
+        width: 100px;
+        margin-top: 20px;
+        animation: loading 1s linear infinite;
+      }
+
+      .loader-logo {
+        width: 50%;
+      }
+
+      .loader-text {
+        font-family: DosisRegular;
+        color: #ffffff;
+      }
+
+      @keyframes loading {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="ui"></div>
+    <div class="loader" id="loader">
+      <p class="loader-text">Startar</p>
+      <img class="loader-logo" src="/images/logo.png" />
+      <img class="spinner" src="/images/spinner.svg" />
+    </div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://klubbhuset-clubhouse.azurewebsites.net/js/ClubHouseGame.js"></script>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>

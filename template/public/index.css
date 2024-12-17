@@ -1,0 +1,63 @@
+#img {
+  display: block;
+  margin: auto;
+  height: 128px;
+  width: 128px;
+  padding: 2rem;
+}
+
+#canvas {
+  display: block;
+  margin: 2rem auto;
+  width: 540px;
+  height: 540px;
+}
+
+/* dosis-regular - latin */
+@font-face {
+  font-family: "DosisRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dosis-v18-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dosis-v18-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/dosis-v18-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/dosis-v18-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/dosis-v18-latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/dosis-v18-latin-regular.svg#Dosis") format("svg"); /* Legacy iOS */
+}
+/* dosis-600 - latin */
+@font-face {
+  font-family: "DosisSemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/dosis-v18-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dosis-v18-latin-600.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/dosis-v18-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/dosis-v18-latin-600.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/dosis-v18-latin-600.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/dosis-v18-latin-600.svg#Dosis") format("svg"); /* Legacy iOS */
+}
+/* dosis-700 - latin */
+@font-face {
+  font-family: "DosisBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/dosis-v18-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dosis-v18-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/dosis-v18-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/dosis-v18-latin-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/dosis-v18-latin-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/dosis-v18-latin-700.svg#Dosis") format("svg"); /* Legacy iOS */
+}
+/* dosis-800 - latin */
+@font-face {
+  font-family: "DosisExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/dosis-v18-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/dosis-v18-latin-800.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/dosis-v18-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/dosis-v18-latin-800.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/dosis-v18-latin-800.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/dosis-v18-latin-800.svg#Dosis") format("svg"); /* Legacy iOS */
+}
